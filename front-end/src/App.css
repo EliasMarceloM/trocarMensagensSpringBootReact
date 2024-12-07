@@ -1,0 +1,70 @@
+/* Resetando o estilo padrão de todos os elementos */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para a App */
+.App {
+  text-align: center;
+}
+
+/* Layout do menu */
+.menu {
+  display: flex; /* Faz o conteúdo se alinhar horizontalmente */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  justify-content: flex-start; /* Alinha à esquerda (pode ser 'center' ou 'space-between' dependendo do seu design) */
+  gap: 20px; /* Espaço entre o h1 e o ul */
+  padding: 20px; /* Adiciona padding em volta do menu */
+}
+
+/* Remove o estilo padrão do ul */
+ul {
+  list-style-type: none;  /* Remove os bullets (pontos) */
+  padding: 0;
+  margin: 0;
+  display: flex;  /* Torna os itens da lista dispostos em linha */
+  gap: 15px;  /* Espaçamento entre os itens */
+}
+
+/* Estilo dos itens da lista */
+ul li {
+  display: inline-block; /* Faz os itens aparecerem em linha */
+}
+
+/* Estilos do Link */
+ul li a {
+  text-decoration: none;
+  color: black; /* Você pode mudar para qualquer cor que preferir */
+  font-weight: bold;
+}
+
+/* Estilos adicionais para o header */
+header {
+  display: flex;
+  flex-direction: column; /* Faz o conteúdo do header (menu + routes) ficarem um abaixo do outro */
+  justify-content: flex-start;
+}
+
+/* Estilo para a seção de inputs (pode ser ajustado conforme necessário) */
+.inputs {
+  
+  border: 1px solid black;
+  background-color: blue;
+  position: relative;
+  width: 100%;
+  height: 9em;
+}
+/* Adicione isso no seu arquivo CSS */
+.home-text {
+ 
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 18px;    /* Tamanho da fonte (opcional) */
+  color: #333;        /* Cor do texto (opcional) */
+}
+.dois{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
